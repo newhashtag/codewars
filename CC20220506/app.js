@@ -13,5 +13,5 @@ Test.assertEquals(arrayMadness([4,5,6],[3,4,5]), false);
 */
 
 function arrayMadness(a, b) {
-  return a.reduce((sum, x) => sum + x**2, 0) > b.reduce((sum, x) => sum + x**3, 0) ? true : false
+  return a.reduce((sum, x) => sum + x**2, 0) > b.reduce((sum, x) => sum + x**3, 0)
 }
